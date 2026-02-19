@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drowsiness Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Drowsiness Detection System</h1>
+    <div>
+        <img src="{{ url_for('video_feed') }}" width="840" height="840">
+    </div>
+    <p>Keep your eyes open to avoid the alarm 😎</p>
+</body>
+</html>
